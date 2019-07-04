@@ -1,0 +1,2 @@
+,Test_acc_T_92000_B_128_lr_0.1000_L2_False_is_tune_False_resnet-20[v2-elu]-C10_seed_123,Test_loss_T_92000_B_128_lr_0.1000_L2_False_is_tune_False_resnet-20[v2-elu]-C10_seed_123,Train_acc_T_92000_B_128_lr_0.1000_L2_False_is_tune_False_resnet-20[v2-elu]-C10_seed_123,Train_loss_T_92000_B_128_lr_0.1000_L2_False_is_tune_False_resnet-20[v2-elu]-C10_seed_123
+0,0.16245993971824646,2.440934896469116,0.15410657227039337,2.44228196144104
