@@ -1,6 +1,6 @@
 # Stagewise SGD  [![pdf](https://img.shields.io/badge/Arxiv-pdf-orange.svg?style=flat)](https://proceedings.neurips.cc/paper/2019/file/fcdf25d6e191893e705819b177cddea0-Paper.pdf)
 
-This is the offical implementation of paper "**Stagewise Training Accelerates Convergence of Testing Error Over SGD**" published on **NeurIPS 2019**. 
+This is the official implementation of the paper "**Stagewise Training Accelerates Convergence of Testing Error Over SGD**" published on **NeurIPS 2019**. 
 
 ## Installation
 ```
@@ -15,7 +15,7 @@ Tensorflow>=1.10.0
 ### Usage
 
 #### (1) SGD with c/t, c/sqrt(t)
-You can run this command for SGD and set `--version=0,1` for choosing different learning rate schedulers.
+You can run this command for SGD and set `--version=0,1` for choosing different learning rate schedules, e.g., v1 is c/t, v2 is c/sqrt(t).
 ```
 python main_SGD.py --version=2 --lr=0.7 --is_save_model=False --use_L2=False --activation='elu' --model='resnet' --resnet_layers=56 --dataset=100 --random_seed=789 --num_iters=80040
 ```
@@ -31,7 +31,7 @@ python eval_compute_theta_mu.py --version=2 --use_L2=False --model='resnet' --re
 ```
 
 #### (4) Minimal Eigen Value (Lanczos Method): 
-You can run this command for computing minimal eigen value using Lanczos Method. Note that if you don't specify `--model_iter`, the code will evaluate your models at iteartion 20000, 40000, 60000, 80000.
+You can run this command for computing minimal eigen value using Lanczos Method. Note that if you don't set an initial value for `--model_iter`, the code will evaluate your models at iteration 20000, 40000, 60000, 80000.
 ```
 python eval_compute_min_eig_val.py --lr=0.001 --use_L2=False --activation='elu' --model='resnet' --resnet_layers=20 --random_seed=123 --model_iter=80000
 ```
