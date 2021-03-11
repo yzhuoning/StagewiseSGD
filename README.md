@@ -31,12 +31,6 @@ python eval_compute_theta_mu.py --version=2 --use_L2=False --model='resnet' --re
 python eval_compute_min_eig_val.py --lr=0.001 --use_L2=False --activation='elu' --model='resnet' --resnet_layers=20 --random_seed=123 --model_iter=80000
 ```
 
-### Hyperparameter tuning
-```
-gamma=[500, 1000, 2000, ...]
-lr = [0.1, 0.01, 0.001, ...]
-```
-
 ## Bibtex 
 If you use this repository in your work, please cite our paper:
 
