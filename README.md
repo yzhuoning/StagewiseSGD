@@ -40,15 +40,10 @@ python eval_compute_min_eig_val.py --lr=0.001 --use_L2=False --activation='elu' 
 If you use this repository in your work, please cite our paper:
 
 ```
-@inproceedings{NEURIPS2019_fcdf25d6,
- author = {Yuan, Zhuoning and Yan, Yan and Jin, Rong and Yang, Tianbao},
- booktitle = {Advances in Neural Information Processing Systems},
- editor = {H. Wallach and H. Larochelle and A. Beygelzimer and F. d\textquotesingle Alch\'{e}-Buc and E. Fox and R. Garnett},
- pages = {},
- publisher = {Curran Associates, Inc.},
- title = {Stagewise Training Accelerates Convergence of Testing Error Over SGD},
- url = {https://proceedings.neurips.cc/paper/2019/file/fcdf25d6e191893e705819b177cddea0-Paper.pdf},
- volume = {32},
- year = {2019}
+@inproceedings{Yang2019StagewiseTA,
+  title={Stagewise Training Accelerates Convergence of Testing Error Over SGD},
+  author={Tianbao Yang and Yan Yan and Zhuoning Yuan and Rong Jin},
+  booktitle={NeurIPS},
+  year={2019}
 }
 ```
