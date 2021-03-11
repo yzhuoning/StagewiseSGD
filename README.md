@@ -13,6 +13,9 @@ Tensorflow>=1.10.0
 ```
 
 ### Dataset
+```
+```
+
 The code will automatically download `CIFAR10`, `CIFAR100` in your working directory. You may also download the datasets on your own by following instructions on https://www.cs.toronto.edu/~kriz/cifar.html. Data preprocessing follows this work https://github.com/tensorflow/models/blob/master/tutorials/image/cifar10/cifar10_input.py.
 
 
