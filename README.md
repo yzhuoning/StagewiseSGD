@@ -43,7 +43,7 @@ If you use this repository in your work, please cite our paper:
 @inproceedings{yuan2019stagewise,
   title={Stagewise Training Accelerates Convergence of Testing Error Over SGD},
   author={Yuan, Zhuoning and Yan, Yan and Jin, Rong and Yang, Tianbao},
-  booktitle={NeurIPS},
+  journal={NeurIPS},
   year={2019}
 }
 ```
