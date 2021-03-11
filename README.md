@@ -31,7 +31,7 @@ python eval_compute_theta_mu.py --version=2 --use_L2=False --model='resnet' --re
 ```
 
 #### (4) Minimal Eigen Value (Lanczos Method): 
-You can run this command for computing minimal eigen value using Lanczos Method. Before this step, you need to save your trained mdoels. Note that if you don't set an initial value for `--model_iter`, the code will use the default checkpoints, such as 20000, 40000, 60000, 80000.
+You can run this command for computing minimal eigen value using Lanczos Method. Before this step, you need to save your trained models. Note that if you don't set an initial value for `--model_iter`, the code will use the default checkpoints, such as 20000, 40000, 60000, 80000.
 ```
 python eval_compute_min_eig_val.py --lr=0.001 --use_L2=False --activation='elu' --model='resnet' --resnet_layers=20 --random_seed=123 --model_iter=80000
 ```
