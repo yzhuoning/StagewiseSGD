@@ -12,6 +12,11 @@ Pillow=5.0.0
 Tensorflow>=1.10.0
 ```
 
+### Dataset
+The code will automatically download CIFAR10, CIFAR100 under 'cifar10_data' and 'cifar100_data' folders in your current working directory. You may also download the datasets on your own by following instructions on https://www.cs.toronto.edu/~kriz/cifar.html. Data preprocessing follows this work https://github.com/tensorflow/models/blob/master/tutorials/image/cifar10/cifar10_input.py.
+
+
+
 ### Usage
 
 #### (1) SGD with c/t, c/sqrt(t)
