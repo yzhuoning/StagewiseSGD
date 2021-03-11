@@ -1,6 +1,6 @@
 # Stagewise Training Accelerates Convergence of Testing Error Over SGD  [![pdf](https://img.shields.io/badge/Arxiv-pdf-orange.svg?style=flat)](https://proceedings.neurips.cc/paper/2019/file/fcdf25d6e191893e705819b177cddea0-Paper.pdf)
 
-This is the offical implementation of paper "**Stagewise Training Accelerates Convergence of Testing Error Over SGD **" published on **NeurIPS 2019**. 
+This is the offical implementation of paper "**Stagewise Training Accelerates Convergence of Testing Error Over SGD**" published on **NeurIPS 2019**. 
 
 ## Installation
 ```
