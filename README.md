@@ -40,9 +40,9 @@ python eval_compute_min_eig_val.py --lr=0.001 --use_L2=False --activation='elu' 
 If you use this repository in your work, please cite our paper:
 
 ```
-@inproceedings{Yang2019StagewiseTA,
+@inproceedings{yuan2019stagewise,
   title={Stagewise Training Accelerates Convergence of Testing Error Over SGD},
-  author={Tianbao Yang and Yan Yan and Zhuoning Yuan and Rong Jin},
+  author={Yuan, Zhuoning and Yan, Yan and Jin, Rong and Yang, Tianbao},
   booktitle={NeurIPS},
   year={2019}
 }
