@@ -12,15 +12,12 @@ Pillow=5.0.0
 Tensorflow>=1.10.0
 ```
 
-### Dataset
-```
-```
-
+## Dataset
 The code will automatically download `CIFAR10`, `CIFAR100` in your working directory. You may also download the datasets on your own by following instructions on https://www.cs.toronto.edu/~kriz/cifar.html. Data preprocessing follows this work https://github.com/tensorflow/models/blob/master/tutorials/image/cifar10/cifar10_input.py.
 
 
 
-### Usage
+## Usage
 
 #### (1) SGD with c/t, c/sqrt(t)
 You can run this command for SGD and set `--version=0,1` for choosing different learning rate schedules, e.g., `v1` is c/t, `v2` is c/sqrt(t).
