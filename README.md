@@ -20,7 +20,7 @@ The code will automatically download `CIFAR10`, `CIFAR100` in your working direc
 ## Usage
 
 #### (1) SGD with c/t, c/sqrt(t)
-You can run this command for SGD and set `--version=0,1` for choosing different learning rate schedules, e.g., `v1` is c/t, `v2` is c/sqrt(t).
+You can run this command for SGD and set `--version=0,1` for choosing different learning rate schedules, such as, c/t, c/sqrt(t).
 ```
 python main_SGD.py --version=2 --lr=0.1 --is_save_model=False --use_L2=False --activation='elu' --model='resnet' --resnet_layers=56 --dataset=100 --random_seed=789 --num_iters=80040
 ```
@@ -36,7 +36,7 @@ python eval_compute_theta_mu.py --version=2 --use_L2=False --model='resnet' --re
 ```
 
 #### (4) Minimal Eigen Value (Lanczos Method): 
-You can run this command for computing minimal eigen value using Lanczos Method. Before this step, you need to save your trained models. Note that if you don't set an initial value for `--model_iter`, the code will use the default checkpoints, such as 20000, 40000, 60000, 80000.
+You can run this command for computing minimal eigen value using Lanczos Method. Before this step, you need to save your trained models. Note that if you don't set an initial value for `--model_iter`, the code will use the default checkpoints, such as, 20000, 40000, 60000, 80000.
 ```
 python eval_compute_min_eig_val.py --lr=0.001 --use_L2=False --activation='elu' --model='resnet' --resnet_layers=20 --random_seed=123 --model_iter=80000
 ```
